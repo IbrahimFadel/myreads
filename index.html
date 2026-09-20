@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reading Log</title>
+<title>My Reads</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,10 +12,14 @@
 <body>
   <div class="page">
     <header class="page-header">
-      <h1>My Reads (TODO: fill this out)</h1>
-      <p class="subtitle">Let the Record Reflect.</p>
+      <h1>My Reads</h1>
+      <p class="subtitle">TODO: scroll forever</p>
       <p class="stats" id="stats"></p>
     </header>
+
+    <div class="search-row">
+      <input type="search" id="search-input" class="search-input" placeholder="Search by title or author…" aria-label="Search books">
+    </div>
 
     <nav class="filters" id="filters">
       <button class="filter-btn is-active" data-filter="all">All</button>
@@ -27,11 +31,11 @@
     <main>
       <ol class="book-list" id="book-list"></ol>
       <p class="empty-state" id="empty-state" hidden>Nothing here yet. Add an entry to <code>books.json</code> to get started.</p>
+      <p class="empty-state" id="no-results" hidden>No books match your search.</p>
     </main>
 
     <footer class="page-footer">
-      <!-- <p>Edit <code>books.json</code> and push to update this page.</p> -->
-       <p>TODO: scroll forever</p>
+       <p class="subtitle">TODO: scroll forever</p>
     </footer>
   </div>
 

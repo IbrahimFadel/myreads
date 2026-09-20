@@ -1,128 +1,148 @@
 [
-  
   {
-    "title": "The Brothers Karamazov",
+    "type": "collection",
     "author": "Fyodor Dostoevsky",
-    "status": "finished",
-    "rating": 5
-  },
-  {
-    "title": "The Idiot",
-    "author": "Fyodor Dostoevsky",
-    "status": "finished",
-    "rating": 4.5
-  },
-  {
-    "title": "White Nights",
-    "author": "Fyodor Dostoevsky",
-    "status": "finished",
-    "rating": 5
-  },
-  {
-    "title": "Crime and Punishment",
-    "author": "Fyodor Dostoevsky",
-    "status": "finished",
-    "rating": 4.5
-  },
-  {
-    "title": "The Trial",
-    "author": "Franz Kafka",
-    "status": "finished",
-    "rating": 4
+    "items": [
+      {
+        "title": "The Brothers Karamazov",
+        "status": "finished",
+        "rating": 5
+      },
+      {
+        "title": "The Idiot",
+        "status": "finished",
+        "rating": 4.5
+      },
+      {
+        "title": "White Nights",
+        "status": "finished",
+        "rating": 5
+      },
+      {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "status": "finished",
+        "rating": 4.5
+      }
+    ]
   },
   {
     "type": "collection",
-    "title": "Chekhov",
-    "itemLabel": "foo",
+    "author": "Franz Kafka",
+    "items": [
+      {
+        "title": "The Trial",
+        "author": "Franz Kafka",
+        "status": "finished",
+        "rating": 4
+      },
+      {
+        "title": "Metamorphosis",
+        "author": "Franz Kafka",
+        "status": "want-to-read"
+      }
+    ]
+  },
+  {
+    "type": "collection",
+    "author": "Anton Chekhov",
+    "itemLabel": "novellas",
     "items": [
       {
         "title": "The Grasshopper",
-        "author": "Anton Chekhov",
         "status": "finished"
       },
       {
         "title": "Ward No. 6",
-        "author": "Anton Chekhov",
         "status": "finished"
       },
       {
         "title": "Ariadna",
-        "author": "Anton Chekhov",
         "status": "finished"
       },
       {
         "title": "The Black Monk",
-        "author": "Anton Chekhov",
         "status": "finished"
       },
       {
         "title": "Murder",
-        "author": "Anton Chekhov",
         "status": "finished"
       },
       {
         "title": "A Woman's Kingdom",
-        "author": "Anton Chekhov",
         "status": "finished"
       },
       {
         "title": "The Two Volodyas",
-        "author": "Anton Chekhov",
         "status": "finished"
       },
       {
         "title": "Three Years",
-        "author": "Anton Chekhov",
         "status": "finished"
       },
       {
         "title": "The Student",
-        "author": "Anton Chekhov",
         "status": "finished"
       }
     ]
   },
   {
-    "title": "Chess",
+    "type": "collection",
     "author": "Stefan Zweig",
-    "status": "finished",
-    "dateFinished": "2026-09-05",
-    "rating": 4.5,
-    "review": "TODO"
+    "items": [
+      {
+        "title": "Chess",
+        "status": "finished",
+        "dateFinished": "2026-09-05",
+        "rating": 4.5
+      },
+      {
+        "title": "Beware of Pity (or Impatience of the Heart)",
+        "author": "Stefan Zweig",
+        "status": "reading",
+        "rating": 5
+      }
+    ]
   },
   {
-    "title": "Beware of Pity (or Impatience of the Heart)",
-    "author": "Stefan Zweig",
-    "status": "reading",
-    "rating": 5
-  },
-  {
-    "title": "The Faithful Executioner",
+    "type": "collection",
     "author": "Joel F. Harrington",
-    "status": "finished",
-    "rating": 4,
-    "review": "TODO"
+    "items": [
+      {
+        "title": "The Faithful Executioner",
+        "status": "finished",
+        "rating": 4
+      }
+    ]
   },
   {
-    "title": "Dune",
+    "type": "collection",
     "author": "Frank Herbert",
-    "status": "finished",
-    "rating": 4
+    "items": [
+      {
+        "title": "Dune",
+        "status": "finished",
+        "rating": 4
+      },
+      {
+        "title": "Dune Messiah",
+        "status": "want-to-read"
+      }
+    ]
   },
   {
-    "title": "Dune Messiah",
-    "author": "Frank Herbert",
-    "status": "want-to-read"
-  },
-  {
-    "title": "The Loser",
+    "type": "collection",
     "author": "Thomas Bernhard",
-    "status": "want-to-read"
-  },
-  {
-    "title": "Correction",
-    "author": "Thomas Bernhard",
-    "status": "want-to-read"
+    "items": [
+      {
+        "title": "The Loser",
+        "status": "want-to-read"
+      },
+      {
+        "title": "Correction",
+        "status": "want-to-read"
+      }
+    ]
   },
   {
     "title": "No Longer Human",
@@ -132,6 +152,66 @@
   {
     "title": "Egil's Saga",
     "author": "",
+    "status": "finished"
+  },
+  {
+    "type": "collection",
+    "author": "Haruki Murakami",
+    "items": [
+      {
+        "title": "Kafka on the Shore",
+        "status": "finished"
+      },
+      {
+        "title": "The Wind-Up Bird Chronicle",
+        "status": "finished"
+      },
+      {
+        "title": "Colourless Tsukuru Tazaki and His Years of Pilgrimage",
+        "status": "finished"
+      },
+      {
+        "title": "Killing Commendatore",
+        "status": "finished"
+      },
+      {
+        "title": "1Q84",
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "title": "Winter in the Blood",
+    "author": "James Welch",
+    "status": "finished"
+  },
+  {
+    "type": "collection",
+    "author": "Ernest Hemingway",
+    "items": [
+      {
+        "title": "The Old Man and the Sea",
+        "status": "finished"
+      },
+      {
+        "title": "A Farewell to Arms",
+        "status": "want-to-read"
+      }
+    ]
+  },
+  {
+    "title": "The Prince",
+    "author": "Niccolò Machiavelli",
+    "status": "finished"
+  },
+  {
+    "title": "The Myth of Sisyphus",
+    "author": "Albert Camus",
+    "status": "want-to-read"
+  },
+  {
+    "title": "Letters From a Stoic",
+    "author": "Lucius Annaeus Seneca",
     "status": "finished"
   }
 ]
