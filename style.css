@@ -1,0 +1,242 @@
+:root {
+  --color-bg: #F7F5EF;
+  --color-text: #26241F;
+  --color-text-muted: #726C5E;
+  --color-accent: #3B5245;
+  --color-accent-soft: #DCE3DA;
+  --color-border: #DEDACC;
+  --color-star: #B8860B;
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+.page-header h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--color-text-muted);
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+}
+
+.stats {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2.5rem 0 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.filter-btn {
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  padding: 0 0 0.75rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.filter-btn:hover {
+  color: var(--color-text);
+}
+
+.filter-btn.is-active {
+  color: var(--color-text);
+  border-bottom-color: var(--color-accent);
+  font-weight: 500;
+}
+
+.filter-btn:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.book-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.book-entry {
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.book-entry:first-child {
+  padding-top: 0;
+}
+
+.book-entry-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.book-title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.book-author {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0.2rem 0 0;
+}
+
+.book-meta {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-align: right;
+  line-height: 1.7;
+}
+
+.book-status {
+  display: inline-block;
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.book-rating {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+.stars-base {
+  color: var(--color-border);
+}
+
+.stars-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--color-star);
+}
+
+.book-review {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  color: var(--color-text);
+  margin: 0.9rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-accent-soft);
+}
+
+.collection-items {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.collection-item {
+  padding: 0.65rem 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.collection-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.collection-item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.collection-item-title {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.collection-item-author {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin: 0.15rem 0 0;
+}
+
+.collection-item-review {
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
+  color: var(--color-text);
+  margin: 0.55rem 0 0;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--color-accent-soft);
+}
+
+.empty-state {
+  color: var(--color-text-muted);
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+code {
+  font-family: 'SFMono-Regular', Consolas, monospace;
+  background: var(--color-accent-soft);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+.page-footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 480px) {
+  .book-meta {
+    text-align: left;
+  }
+}

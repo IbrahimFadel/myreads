@@ -1,0 +1,137 @@
+[
+  
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "status": "finished",
+    "rating": 5
+  },
+  {
+    "title": "The Idiot",
+    "author": "Fyodor Dostoevsky",
+    "status": "finished",
+    "rating": 4.5
+  },
+  {
+    "title": "White Nights",
+    "author": "Fyodor Dostoevsky",
+    "status": "finished",
+    "rating": 5
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "status": "finished",
+    "rating": 4.5
+  },
+  {
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "status": "finished",
+    "rating": 4
+  },
+  {
+    "type": "collection",
+    "title": "Chekhov",
+    "itemLabel": "foo",
+    "items": [
+      {
+        "title": "The Grasshopper",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      },
+      {
+        "title": "Ward No. 6",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      },
+      {
+        "title": "Ariadna",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      },
+      {
+        "title": "The Black Monk",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      },
+      {
+        "title": "Murder",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      },
+      {
+        "title": "A Woman's Kingdom",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      },
+      {
+        "title": "The Two Volodyas",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      },
+      {
+        "title": "Three Years",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      },
+      {
+        "title": "The Student",
+        "author": "Anton Chekhov",
+        "status": "finished"
+      }
+    ]
+  },
+  {
+    "title": "Chess",
+    "author": "Stefan Zweig",
+    "status": "finished",
+    "dateFinished": "2026-09-05",
+    "rating": 4.5,
+    "review": "TODO"
+  },
+  {
+    "title": "Beware of Pity (or Impatience of the Heart)",
+    "author": "Stefan Zweig",
+    "status": "reading",
+    "rating": 5
+  },
+  {
+    "title": "The Faithful Executioner",
+    "author": "Joel F. Harrington",
+    "status": "finished",
+    "rating": 4,
+    "review": "TODO"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "status": "finished",
+    "rating": 4
+  },
+  {
+    "title": "Dune Messiah",
+    "author": "Frank Herbert",
+    "status": "want-to-read"
+  },
+  {
+    "title": "The Loser",
+    "author": "Thomas Bernhard",
+    "status": "want-to-read"
+  },
+  {
+    "title": "Correction",
+    "author": "Thomas Bernhard",
+    "status": "want-to-read"
+  },
+  {
+    "title": "No Longer Human",
+    "author": "Osamu Dazai",
+    "status": "finished"
+  },
+  {
+    "title": "Egil's Saga",
+    "author": "",
+    "status": "finished"
+  }
+]
